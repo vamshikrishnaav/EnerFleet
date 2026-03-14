@@ -1,0 +1,34 @@
+*{
+     font-family: "Red Hat Display", sans-serif;
+}
+
+.get-btn{
+    background:#157442;
+    color:white;
+    border-radius:25px;
+    font-weight: 400;
+    width: 156px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.get-btn:hover{
+    background:#157442;
+    color:white;
+    
+}
+.nav .nav-link{
+    color: #666666;
+    font-weight: 400;
+}
+.nav .nav-link:hover{
+    color: #157442;
+}
+.main-head{
+    background-color: #f9f9f9;
+    border: 1px solid #ffffff;
+}
+.icon{
+    font-size: 21px;
+}
