@@ -1,5 +1,103 @@
-/* @media (min-width: 1400px) {
-    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        max-width: 1239px;
-    }
-} */
+@media (max-width: 992px){
+
+.banner-content-setion{
+  top: 15%;
+}
+
+.banner-content h1{
+  font-size: 36px;
+  max-width: 700px;
+}
+
+.sub-content p{
+  font-size: 15px;
+  max-width: 600px;
+  white-space: normal;
+}
+
+.card-section{
+  max-width: 600px;
+}
+
+}
+@media (max-width: 768px){
+
+.banner-section{
+  height: auto;
+  padding: 120px 0 60px 0;
+}
+
+.banner-content-setion{
+  top: 0;
+}
+
+.banner-content h1{
+  font-size: 30px;
+  max-width: 100%;
+}
+
+.sub-content p{
+  font-size: 14px;
+  max-width: 100%;
+}
+
+.card-section{
+  max-width: 100%;
+  margin-top: 30px;
+}
+
+.maas-card{
+  min-height: 110px;
+}
+
+.connect-btn{
+  margin-left: 0;
+}
+
+}
+@media (max-width: 576px){
+
+.banner-content h1{
+  font-size: 24px;
+  line-height: 1.3;
+}
+
+.sub-content p{
+  font-size: 13px;
+}
+
+.maas-card{
+  padding: 14px;
+}
+
+.card-text h4{
+  font-size: 16px;
+}
+
+.card-text p{
+  font-size: 12px;
+}
+
+.connect{
+  width: 100%;
+}
+
+}
+@media (max-width: 420px){
+
+.banner-content h1{
+  font-size: 20px;
+}
+
+.sub-content p{
+  font-size: 12px;
+}
+
+.card-text p{
+  font-size: 11px;
+}
+.maas-card{
+    width: 80%;
+}
+
+}
