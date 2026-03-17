@@ -288,7 +288,8 @@ padding: 0%;
 /* GRID */
 
 .strategic-grid{
-  width:766px;
+  max-width:766px;
+  width: 100;
   background:#ffffff;
    margin-top:65px;
   
@@ -307,15 +308,24 @@ padding: 0%;
 }
 
 .strategic-card h4{
-  font-size:16px;
+  font-size:18px;
+  font-style: bold;
+  line-height: 100%;
+  color: #282828;
+  letter-spacing: 0%;
   font-weight:600;
   margin-bottom:12px;
 }
 
 .strategic-card p{
-  font-size:13px;
-  color:#777;
-  line-height:1.6;
+  font-size:15px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-top: 16px;
+  color:#787878;
+  
 }
 
 
@@ -325,9 +335,10 @@ padding: 0%;
   display:inline-flex;
   align-items:center;
   gap:8px;
-  margin-top:15px;
+  line-height: 100%;
+  margin-top:20px;
   color:#157442;
-  font-size:13px;
+  font-size:15px;
   text-decoration:none;
 }
 
@@ -340,16 +351,23 @@ padding: 0%;
 
 .strategic-image{
   position:relative;
-  display:flex;
-  justify-content:flex-end;
+ 
+}
+.strategic-image-inner {
+  position: relative;
+  display: inline-block;
+  line-height: 0;
+  margin-left: auto;
 }
 
 .strategic-image img{
-  width:553px;
-  height:641px;
-  object-fit:cover;
-  margin-left:auto;
- 
+  
+   display: block;
+  width: 100%;
+  max-width: 553px;
+  height: 641px;
+  object-fit: cover;
+  margin-left: auto;
 }
 
 
@@ -357,7 +375,6 @@ padding: 0%;
 .consult-box{
   position:absolute;
   bottom:0;
-  left:0;
   width:300px;
   height:220px;
   background:#157442;
@@ -366,7 +383,6 @@ padding: 0%;
   display:flex;
   flex-direction:column;
   justify-content:space-between;
-  left: -15px;
 }
 
 .consult-box p{
@@ -389,3 +405,136 @@ padding: 0%;
   left: 214.3px;
   opacity: 1;
 }
+
+/* Container & Cards */
+.product-card {
+  background: #ffffff;
+  padding: 60px 40px;
+  position: relative;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-number {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  font-size: 24px;
+  color: #E0E0E0;
+  font-weight: 500;
+}
+
+.product-img {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.product-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+ letter-spacing: 0%;
+  color:#000000;
+}
+
+.product-title span {
+  font-weight: 400;
+  color: #797979;
+  font-size: 16px;
+  margin-left: 5px;
+  line-height: 100%;
+  font-style: normal;
+}
+
+.product-desc {
+  font-size: 14px;
+  color: #787878;
+  line-height: 100%;
+  font-style: normal;
+  letter-spacing: 0%;
+  margin: 20px 0 40px;
+  max-width: 320px;
+}
+
+
+
+
+.link-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  text-decoration: none;
+  color: #157442;
+  font-style: normal;
+  letter-spacing: 0%;
+  line-height: 100%;
+  font-weight: 500;
+  font-size: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.link-item:last-child {
+  border-bottom: none;
+}
+
+
+.link-item i {
+  font-size: 21px;
+}
+
+
+.truck-section {
+  background: 
+    linear-gradient(180deg, rgba(0, 0, 0, 0.4) 26.67%, rgba(0, 0, 0, 0) 88.04%), 
+    url('/assets/images/background_truck.webp');
+    
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: white;
+  min-height: 600px;
+  position: relative;
+}
+.truck-overlay-text h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #F9F9F9;
+}
+
+.truck-overlay-text p {
+  font-size: 16px;
+  opacity: 0.9;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 40px;
+  max-width: 380px;
+}
+
+ .explore-product {
+  color: #F9F9F9;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  font-weight: 600;
+  margin-top: auto; 
+  padding-bottom: 20px; 
+  display: inline-block;
+ margin-top: auto; 
+  display: inline-block; 
+  padding-bottom: 10px; 
+  line-height: 100%;
+  font-style: normal;
+  font-size: 16px;
+}
+
