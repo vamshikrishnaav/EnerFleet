@@ -1,4 +1,27 @@
+@media (max-width: 991px) {
 
+  .nav-item:last-child {
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .get-btn {
+    width: 120px !important;
+    height: 35px !important;
+    font-size: 13px !important;
+    gap: 10px !important;
+  }
+
+  .get-btn .icon i {
+    font-size: 13px !important;
+  }
+
+  .navbar-brand img {
+    height: 28px !important;
+  }
+}
 @media (min-width: 1400px) {
   .solution-title {
     font-size: 64px;

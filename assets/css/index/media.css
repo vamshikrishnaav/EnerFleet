@@ -1,3 +1,33 @@
+ /* Header mobile view- */
+@media (max-width: 991px) {
+
+
+  .nav-item:last-child {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .get-btn {
+    width: 120px;     
+    height: 35px;      
+    font-size: 13px;  
+    gap: 2px;
+  }
+
+  .get-btn .icon i {
+    font-size: 13px;   
+  
+  }
+   .navbar-brand img {
+    height: 28px;  
+  }
+}
+
+
+
 @media (max-width: 992px){
 
 .banner-content-setion{
@@ -17,7 +47,7 @@
 
 .card-section{
   max-width: 600px;
-}
+}                                     
 
 }
 @media (max-width: 768px){
@@ -98,6 +128,9 @@
 }
 .maas-card{
     width: 80%;
+}
+.connect{
+  width: 80%;
 }
 
 }
@@ -707,6 +740,56 @@
   }
 
 }
+
+/* our partners */
+@media (max-width: 992px) {
+  .logo-card {
+    width: 90px;
+    height: 50px;
+    padding: 6px 8px;
+  }
+  .partner-card {
+    width: 200px;
+    height: 80px;
+  }
+  .partner-card h2 {
+    font-size: 20px;
+  }
+  .partner-card-spacer {
+    width: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  .partners-section {
+    padding: 48px 8px;
+    width: 100%;
+     max-width: 360px;   
+    margin: 0 auto;     
+  }
+  .logo-card {
+    width: 50px;
+    height: 38px;
+    padding: 4px 6px;
+  }
+  .partners-row {
+    gap: 6px;
+  }
+  .partners-grid {
+    gap: 6px;
+  }
+  .partner-card {
+    width: 140px;
+    height: 64px;
+  }
+  .partner-card h2 {
+    font-size: 15px;
+  }
+  .partner-card-spacer {
+    width: 140px;
+  }
+}
+
 
 /** Footer section **/
 .tailored-section {
